@@ -1,16 +1,83 @@
 /* ----------------------
 basic setup
 ------------------------*/
-*{
+* {
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
     font-family: 'Work Sans', sans-serif;
 }
-.container{
+.container {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    border: none;
+    color: #ffffff;
+    background: #FF900E;
+    border-radius: 8px;
+}
+
 /* nav-bar style start */
-.
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.logo-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.nav-item ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-item ul li a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* banner section start */
+.banner{
+    text-align: center;
+    margin-top: 100px;
+}
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+.banner .section-description{
+    margin: 30px 0 30px 0;
+}
+.banner .btn-primary{
+    margin-bottom: 50px;
+}
+.banner img {
+    width: 1140px;
+    height: 700px;
+    object-fit: cover;
+    padding-bottom: 45px;
+}
+/* quick list section */
