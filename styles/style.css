@@ -58,7 +58,8 @@ header {
 .nav-item ul {
     display: flex;
     align-items: center;
-    gap: 50px;
+    /* gap: 50px; */
+    column-gap: 50px;
 }
 
 .nav-item ul li a {
@@ -331,6 +332,8 @@ footer p {
     }
     .nav-item ul{
         flex-direction: column;
+        column-gap: 0;
+        row-gap: 50px;
     }
     .banner img {
         width: 100%;
