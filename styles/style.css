@@ -89,6 +89,7 @@ header {
 
 .banner img {
     width: 1140px;
+    /* width: 100%; */
     height: 700px;
     object-fit: cover;
     padding-bottom: 45px;
@@ -368,5 +369,7 @@ footer p {
     .contect{
         display: none;
     }
-    
+    footer p{
+        text-align: center;
+    }
 }
